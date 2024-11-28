@@ -1,61 +1,176 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dilan Luqman Portfolio</title>
-</head>
-<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f0f0f0; color: #333;">
+    <title>Khao Piyo Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
 
-    <!-- Header Section -->
-    <header style="background-color: #8B4513; color: white; text-align: center; padding: 20px;">
-        <img src="/IMG_1004.jpg" alt="Dilan Luqman" style="border-radius: 50%; width: 150px; height: 150px;">
-        <h1>Dilan Luqman</h1>
-        <p>Student | Trader | Tech Enthusiast</p>
+        header {
+                                    padding: 1rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+
+        .navigation {
+            text-align: center;
+            margin: 2rem 0;
+        }
+
+        .navigation ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .navigation ul li {
+            display: inline;
+            margin: 0 1rem;
+        }
+
+        .navigation ul li a {
+            text-decoration: none;
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .navigation ul li a:hover {
+            text-decoration: underline;
+        }
+
+        .menu-section {
+            text-align: center;
+            margin-top: 2rem;
+        }
+
+        .menu-section h3 {
+            color: #0000ff;
+        }
+
+        .menu-table {
+            margin: 1rem auto;
+            border-collapse: collapse;
+            width: 50%;
+            background-color: white;
+        }
+
+        .menu-table th,
+        .menu-table td {
+            border: 2px solid #007bff;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+   
+          
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 2rem;
+        }
+
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .menu-table {
+                width: 90%;
+            }
+        }
+    .auto-style1 {
+		color: maroon;
+	}
+    .auto-style2 {
+		margin-left: 1000px;
+		margin-top: -150px;
+	}
+    .auto-style3, .auto-style3 td {
+	border:2px solid blue;
+	
+		
+		margin-right: 285px;
+		background-color: white;
+		
+	}
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="auto-style1">Khao Piyo Restaurant</h1>
     </header>
 
-    <!-- Navigation Section -->
-    <nav style="text-align: center; padding: 10px; background-color: #6B4226;">
-        <a href="#about" style="color: white; margin: 0 10px; text-decoration: none;">About</a>
-        <a href="#skills" style="color: white; margin: 0 10px; text-decoration: none;">Skills</a>
-        <a href="#experience" style="color: white; margin: 0 10px; text-decoration: none;">Experience</a>
-        <a href="#contact" style="color: white; margin: 0 10px; text-decoration: none;">Contact</a>
-    </nav>
+    <div class="container">
+        <div >
+            <h3>Explore:</h3>
+            <ul>
+                <li><a href="./1.html">Menu</a></li>
+                <li>&nbsp;<a href="./2.html">Reservation</a> </li>
+                <li><a href="./3.html">Catering</a></li>
+                <li>&nbsp;<a href="./4.html">Tours</a></li>
+            </ul>
+            <img src="pexels-cax0000-1858115.jpg" alt="Khao Piyo Restaurant Image" style="width: 200px; " height="295" class="auto-style2">
+        </div>
 
-    <!-- About Me Section -->
-    <section id="about" style="padding: 20px; text-align: center; background-color: #e0d9b8; margin-top: 20px;">
-        <h2 style="color: #8B4513;">About Me</h2>
-        <p>Hello! My name is Dilan Luqman. I'm a Stage 3 Computer Science student at the University of Sulaimani. I am passionate about technology and trading.</p>
-    </section>
+        
+        <div class="menu-section">
+            <h3>Menus Available:</h3>
+            <center>
+            <table class="auto-style3" style="width: 56%">
+                <thead>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="height: 31px">1</td>
+                        <td style="height: 31px">Indian</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Italian</td>
+                    </tr>
+                    <tr>
+                        <td style="height: 25px">3</td>
+                        <td style="height: 25px">Continental</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Thai</td>
+                    </tr>
+                </tbody>
+            </table>
+            </center>
+        </div>
+    </div>
 
-    <!-- Skills Section -->
-    <section id="skills" style="padding: 20px; text-align: center; background-color: #d1c6b2; margin-top: 20px;">
-        <h2 style="color: #8B4513;">Skills</h2>
-        <p>Programming, Web Development, Problem-Solving, Trading Analysis</p>
-    </section>
-
-    <!-- Experience Section -->
-    <section id="experience" style="padding: 20px; text-align: center; background-color: #e0d9b8; margin-top: 20px;">
-        <h2 style="color: #8B4513;">Experience</h2>
-        <p>Trader and University Projects</p>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact" style="padding: 20px; text-align: center; background-color: #d1c6b2; margin-top: 20px;">
-        <h2 style="color: #8B4513;">Contact Me</h2>
-        <p>Email: <a href="mailto:dilanluqman84@gmail.com" style="color: #6B4226;">dilanluqman84@gmail.com</a></p>
-        <p>Phone: <a href="tel:+9647511882004" style="color: #6B4226;">+9647511882004</a></p>
-        <p>
-            Connect with me:
-            <a href="https://www.facebook.com/profile.php?id=100006222307972" style="color: #6B4226; margin: 0 10px;" target="_blank">Facebook</a> |
-            <a href="https://www.instagram.com/dilany_shexluqman/" style="color: #6B4226; margin: 0 10px;" target="_blank">Instagram</a>
-        </p>
-    </section>
-
-    <!-- Footer Section -->
-    <footer style="text-align: center; background-color: #6B4226; color: white; padding: 10px;">
-        <p>© 2024 Dilan Luqman | Portfolio</p>
+    <footer>
+        <p>2024@dilan luqman raouf, <a href="mailto:abc@xyz.com">Contact us</a>.</p>
     </footer>
-
 </body>
+
 </html>
